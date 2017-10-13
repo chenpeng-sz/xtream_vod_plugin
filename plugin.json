@@ -1,0 +1,19 @@
+{
+ "type": "ecmascript",
+  "id": "xtream_vod",
+  "file": "xtream_vod.js",
+  "category": "movie",
+  "showtimeVersion": "0.0.1",
+  "version": "0.0.1",
+  "author": "Allen (@Allen)",
+  "title": "Xtream VOD",
+  "icon": "xtream_vod.bmp",
+  "synopsis": "xtream vod for test",
+  "description":"<p>just for test xtream vod api.</p>",
+  "homepage":"https://github.com/luckxiang",
+  "setting":{
+    "url": "",
+    "username": "",
+    "password": ""
+    }
+}
