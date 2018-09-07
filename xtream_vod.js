@@ -17,12 +17,12 @@ var global_responseData;
     {
         if(cfg_data[i].status == "enable")
         {
-            if(cfg_data[i].url.substring(0, 7) == "http://")
-                s_url = cfg_data[i].url;
+            if(cfg_data[i].url.value.substring(0, 7) == "http://")
+                s_url = cfg_data[i].url.value;
             else
-                s_url = "http://" + cfg_data[i].url;
-            s_name = cfg_data[i].username;
-            s_pwd = cfg_data[i].password;
+                s_url = "http://" + cfg_data[i].url.value;
+            s_name = cfg_data[i].username.value;
+            s_pwd = cfg_data[i].password.value;
             break;
         }
     }
