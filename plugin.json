@@ -4,7 +4,7 @@
   "file": "xtream_vod.js",
   "category": "movie",
   "showtimeVersion": "0.0.1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Allen (@Allen)",
   "title": "Xtream VOD",
   "icon": "xtream_vod.bmp",
@@ -12,8 +12,17 @@
   "description":"<p>just for test xtream vod api.</p>",
   "homepage":"https://github.com/luckxiang",
   "setting":{
-    "url": "",
-    "username": "",
-    "password": ""
+      "url":{
+          "index": 0,
+          "value": ""
+      },
+      "username":{
+          "index": 1,
+          "value": ""
+      },
+      "password":{
+          "index": 2,
+          "value": ""
+      }
     }
 }
